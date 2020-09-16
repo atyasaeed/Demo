@@ -8,6 +8,14 @@ public class OrderEntity {
 	@Id
 	private Integer orderId;
 	private String orderName;
+	private boolean enabled;
+	
+	public boolean isEnabled() {
+		return enabled;
+	}
+	public void setEnabled(boolean enabled) {
+		this.enabled = enabled;
+	}
 	public Integer getOrderId() {
 		return orderId;
 	}
