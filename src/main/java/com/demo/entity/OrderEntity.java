@@ -8,13 +8,13 @@ public class OrderEntity {
 	@Id
 	private Integer orderId;
 	private String orderName;
-	private boolean enabled;
+	private boolean eenabled;
 	
 	public boolean isEnabled() {
-		return enabled;
+		return eenabled;
 	}
 	public void setEnabled(boolean enabled) {
-		this.enabled = enabled;
+		this.eenabled = enabled;
 	}
 	public Integer getOrderId() {
 		return orderId;
